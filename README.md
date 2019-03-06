@@ -5,10 +5,10 @@ Patches are named after their function. EG: "Vanilla_NewTribeResearch.xml" is th
 
 If you'd like more mods to be patched open and issue with a link to the mod, and a description/names of the research you want removed.
 
-__Current Mod Support:__
+### Current Mod Support:
 None
 
-__Credits:__
+### Credits:
 Xiapher-Mod name idea
 
 ## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
