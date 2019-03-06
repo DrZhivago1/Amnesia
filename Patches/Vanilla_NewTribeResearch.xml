@@ -4,7 +4,7 @@
    <Operation Class="PatchOperationSequence">
       <success>Always</success>
       <operations>
-      <!--ResearchProjects_1.xml remove research for "New Tribe"-->
+         <!--ResearchProjects_1.xml remove research for "New Tribe"-->
          <li Class="PatchOperationRemove">
             <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing" or defName="TreeSowing" or defName="PassiveCooler" or defName="Pemmican" or defName="RecurveBow"]/tags/li[.="TribalStart"]</xpath>
          </li>

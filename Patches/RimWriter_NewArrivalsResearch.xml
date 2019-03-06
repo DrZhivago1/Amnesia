@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--If using RimWriter - Books, Scrolls, Tablets, and Libraries, Remove all starting research from "New Arrivals" faction-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>RimWriter - Books, Scrolls, Tablets, and Libraries</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--RimWriter_ResearchProjects.xml remove research for "New Arrivals"-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="RimWriter_TechPrimitiveWriting" or defName="RimWriter_TechSimpleWriting"]/tags/li[.="ClassicStart"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

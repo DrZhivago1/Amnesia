@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--If using More Vanilla Turrets [1.0], Remove all starting research from "New Arrivals" faction-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>More Vanilla Turrets [1.0]</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--MVT_ResearchProjects.xml remove research for "New Arrivals"-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="GunComplex"]/tags/li[.="ClassicStart"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

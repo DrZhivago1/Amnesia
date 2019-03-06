@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--If using Dubs Bad Hygiene, Remove all starting research from "New Arrivals" faction-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Bad Hygiene</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--ResearchProjects_Hygiene.xml remove research for "New Arrivals"-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Plumbing" or defName="ElectricPumps" or defName="CentralHeating" or defName="PoweredHeating" or defName="Irrigation"]/tags/li[.="ClassicStart"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
