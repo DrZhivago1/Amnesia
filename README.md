@@ -6,8 +6,8 @@ Patches are named after their function. EG: "Vanilla_NewTribeResearch.xml" is th
 If you'd like more mods to be patched open an issue with a link to the mod, and a description/names of the research you want removed.
 
 ### Current Mod Support:
-[Apparello 2](https://ludeon.com/forums/index.php?topic=5085.0)
-[Doors Expanded](https://ludeon.com/forums/index.php?topic=39264)
+ [Apparello 2](https://ludeon.com/forums/index.php?topic=5085.0)
+ [Doors Expanded](https://ludeon.com/forums/index.php?topic=39264)
 [Dubs Bad Hygiene](https://ludeon.com/forums/index.php?topic=29043.0)
 [Industrial Age - Objects and Furniture](https://ludeon.com/forums/index.php?topic=26078.0)
 [More Vanilla Turrets](https://steamcommunity.com/sharedfiles/filedetails/?id=1478936958)
