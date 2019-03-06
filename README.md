@@ -1,7 +1,7 @@
 # Amnesia
 Removes all Vanilla starting research, and as such, is only useful at the start of a new game.
 
-Patches are named after their function. EG: "Vanilla_NewTribeResearch.xml" is the patch that removes all starting tribal research in Vanilla. You can delete a patch if you want the research back.
+Patches are named after their function. EG: "Vanilla_NewTribeResearch.xml" is the patch that removes all starting tribal research in Vanilla. You can delete a patch if you want the starting research back.
 
 If you'd like more mods to be patched open an issue with a link to the mod, and a description/names of the research you want removed.
 
