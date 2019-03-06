@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--If using Industrial Age - Objects and Furniture, Remove all starting research from "New Arrivals" faction-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Industrial Age - Objects and Furniture</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <!--Estate_Research.xml remove research for "New Arrivals"-->
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="Estate_TechCandleLights" or defName="Estate_TechWoodStoveFurnace" or defName="Estate_TechArcLamps" or defName="Estate_TechGasLights" or defName="Industrial_Telegraph" or defName="Estate_TechEdisonLights" or defName="Estate_TechMusicLow" or defName="Estate_TechRefrigeratorBasic" or defName="Estate_TechMusicMed"]/tags/li[.="ClassicStart"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <!--If using Doors Expanded, Remove all starting research from "New Tribe" faction-->
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>Doors Expanded</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <!--Heron_ResearchProjects.xml remove research for "New Tribe"-->
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="ProjectHeron_Curtains"]/tags/li[.="TribalStart"]</xpath>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+</Patch>
