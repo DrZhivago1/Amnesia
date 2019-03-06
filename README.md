@@ -5,6 +5,10 @@ Patches are named after their function. EG: "Vanilla_NewTribeResearch.xml" is th
 
 If you'd like more mods to be patched open an issue with a link to the mod, and a description/names of the research you want removed.
 
+_[Link to Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1674357478)_
+
+_[Link to Ludeon](https://ludeon.com/forums/index.php?topic=47165.msg447420#msg447420)_
+
 ### Current Mod Support:
 - [Apparello 2](https://ludeon.com/forums/index.php?topic=5085.0)
 - [Doors Expanded](https://ludeon.com/forums/index.php?topic=39264)
