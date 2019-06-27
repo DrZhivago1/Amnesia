@@ -14,10 +14,12 @@ _[Link to Ludeon](https://ludeon.com/forums/index.php?topic=47165.msg447420#msg4
 - [Doors Expanded](https://ludeon.com/forums/index.php?topic=39264)
 - [Dubs Bad Hygiene](https://ludeon.com/forums/index.php?topic=29043.0)
 - [Industrial Age - Objects and Furniture](https://ludeon.com/forums/index.php?topic=26078.0)
+- [Medical System Expansion](https://github.com/IndoOreno/MedicalSystemExpansion)
 - [More Vanilla Turrets](https://steamcommunity.com/sharedfiles/filedetails/?id=1478936958)
 - [RIMkea](https://ludeon.com/forums/index.php?topic=46210.0)
 - [RimCuisine](https://steamcommunity.com/sharedfiles/filedetails/?id=1543723640)
 - [RimWriter](https://ludeon.com/forums/index.php?topic=45847.0)
+- [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143)
 
 ### Credits:
 Xiapher-Mod name idea
