@@ -3,7 +3,7 @@
     <!--If using More Vanilla Turrets [1.0], Remove all starting research from "New Arrivals" faction-->
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>More Vanilla Turrets [1.0]</li>
+            <li>More Vanilla Turrets 1.0</li>
         </mods>
         <match Class="PatchOperationSequence">
             <success>Always</success>
