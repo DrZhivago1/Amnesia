@@ -1,0 +1,34 @@
+﻿<Patch>
+
+   <!--If using RimCuisine 2, Remove all starting research from "New Tribe" faction-->
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>[1.0] RimCuisine 2 Core</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <!--RC2_Research_Projects_Misc.xml remove research for "New Tribe"-->
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="Pemmican" or defName="RC2_BasicAgriculture" or defName="TreeSowing"]/tags/li[.="TribalStart"]</xpath>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>[1.0] RimCuisine 2: Bottling and Booze Expansion</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <!--RC2BB_Research_Projects_Misc.xml remove research for "New Tribe"-->
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="Brewing"]/tags/li[.="TribalStart"]</xpath>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+
+</Patch>

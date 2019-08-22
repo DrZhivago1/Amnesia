@@ -1,0 +1,19 @@
+﻿<Patch>
+
+   <!--If using RimCuisine 2, Remove all starting research from "New Arrivals" faction-->
+   <Operation Class="PatchOperationFindMod">
+      <mods>
+         <li>[1.0] RimCuisine 2 Core</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+         <success>Always</success>
+         <operations>
+            <!--RC2_Research_Projects_Misc.xml remove research for "New Arrivals"-->
+            <li Class="PatchOperationRemove">
+               <xpath>Defs/ResearchProjectDef[defName="RC2_BasicCooking" or defName="RC2_BasicAgriculture"]/tags/li[.="ClassicStart"]</xpath>
+            </li>
+         </operations>
+      </match>
+   </Operation>
+   
+</Patch>
