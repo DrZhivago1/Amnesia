@@ -15,5 +15,3 @@ _[Link to Ludeon](https://ludeon.com/forums/index.php?topic=47165.msg447420#msg4
 
 ### Credits:
 Xiapher-Mod name idea
-
-## [License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
