@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <!--Remove all starting research from "Space Gremlins" faction-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Yabils: Space Gremlins</li>
+		</mods>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/FactionDef[defName="YabilColonyPlayer"]/startingResearchTags</xpath>
+		</match>
+	</Operation>
+</Patch>

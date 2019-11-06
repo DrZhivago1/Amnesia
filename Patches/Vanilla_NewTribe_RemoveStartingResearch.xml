@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <!--Remove all starting research from "New Tribe" faction-->
+   <Operation Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef[defName="PlayerTribe"]/startingResearchTags</xpath>
+   </Operation>
+</Patch>

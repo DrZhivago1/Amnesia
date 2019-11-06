@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+   <!--Remove all starting research from "New Arrivals" faction-->
+   <Operation Class="PatchOperationRemove">
+      <xpath>Defs/FactionDef[defName="PlayerColony"]/startingResearchTags</xpath>
+   </Operation>
+</Patch>
