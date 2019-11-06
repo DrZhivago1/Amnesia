@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <!--If using Medieval Times, Remove all starting research from "New Arrivals" faction-->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Times</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ResearchProjectDef[defName="MedTimes_MedievalTechnologies" or defName="MedTimes_MedievalTailoring" or defName="MedTimes_MedievalCrafting" or defName="MedTimes_MedievalDefenses" or defName="MedTimes_MedievalFoodStorage" or defName="MedTimes_AdvancedMedievalSmithing" or defName="MedTimes_ImprovedMedievalDefenses"]/tags/li[.="ClassicStart"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
