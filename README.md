@@ -1,5 +1,5 @@
 # Amnesia
-Removes all Vanilla starting research, and as such, is only useful at the start of a new game.
+Removes all Vanilla starting research, and as such, is only useful at the start of a new game. The benefit of using patches as this mod does, is keeping all Vanilla behavior of faction types.
 
 Patches are named after their function. EG: "Vanilla_NewTribe_RemoveStartingResearch.xml" is the patch that removes all starting tribal research in Vanilla. You can delete a patch if you want the starting research back.
 
