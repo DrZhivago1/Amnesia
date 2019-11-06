@@ -10,8 +10,8 @@ _[Link to Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=16743574
 _[Link to Ludeon](https://ludeon.com/forums/index.php?topic=47165.msg447420#msg447420)_
 
 ### Current Mod Support:
-- [Yabils: Space Gremlins](https://steamcommunity.com/sharedfiles/filedetails/?id=1711219414)
 - [Lizardmen](https://steamcommunity.com/sharedfiles/filedetails/?id=1710060170)
+- [Yabils: Space Gremlins](https://steamcommunity.com/sharedfiles/filedetails/?id=1711219414)
 
 ### Credits:
 Xiapher-Mod name idea
