@@ -2,9 +2,12 @@
 <ModMetaData>
 	<name>Amnesia</name>
 	<author>Dr_Zhivago</author>
+	<url>https://github.com/DrZhivago1/Amnesia</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<packageId>drzhivago.amnesia</packageId>
 	<description>
 No research at the start of a new game.
 

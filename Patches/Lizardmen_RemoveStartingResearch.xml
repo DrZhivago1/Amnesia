@@ -6,7 +6,7 @@
          <li>Lizardmen</li>
       </mods>
       <match Class="PatchOperationRemove">
-         <xpath>Defs/FactionDef[defName="PlayerLizardmanColony"]/startingResearchTags</xpath>
+         <xpath>/Defs/FactionDef[defName="PlayerLizardmanColony"]/startingResearchTags</xpath>
       </match>
    </Operation>
 </Patch>

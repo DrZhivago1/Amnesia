@@ -2,6 +2,6 @@
 <Patch>
    <!--Remove all starting research from "New Tribe" faction-->
    <Operation Class="PatchOperationRemove">
-      <xpath>Defs/FactionDef[defName="PlayerTribe"]/startingResearchTags</xpath>
+      <xpath>/Defs/FactionDef[defName="PlayerTribe"]/startingResearchTags</xpath>
    </Operation>
 </Patch>

@@ -6,7 +6,7 @@
 			<li>Yabils: Space Gremlins</li>
 		</mods>
 		<match Class="PatchOperationRemove">
-			<xpath>Defs/FactionDef[defName="YabilColonyPlayer"]/startingResearchTags</xpath>
+			<xpath>/Defs/FactionDef[defName="YabilColonyPlayer"]/startingResearchTags</xpath>
 		</match>
 	</Operation>
 </Patch>
